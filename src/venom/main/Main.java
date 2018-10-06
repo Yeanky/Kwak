@@ -3,6 +3,7 @@ package venom.main;
 import java.util.Scanner;
 
 import venom.main.calculation.Addclass;
+import venom.main.calculation.Multiclass;
 import venom.main.calculation.Subclass;
 
 public class Main {
@@ -27,6 +28,8 @@ public class Main {
 //		tempadd.actCal();
 		tempadd.printCal();
 		
+		Multiclass tempmul = new Multiclass(x, y);
+		tempmul.printCal();
 		
 	}
 
