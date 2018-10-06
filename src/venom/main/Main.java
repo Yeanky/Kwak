@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import venom.main.calculation.Addclass;
 import venom.main.calculation.Multiclass;
+import venom.main.calculation.Powclass;
 import venom.main.calculation.Subclass;
 
 public class Main {
@@ -30,6 +31,9 @@ public class Main {
 		
 		Multiclass tempmul = new Multiclass(x, y);
 		tempmul.printCal();
+		
+		Powclass temppow = new Powclass(x,y);
+		temppow.printCal();
 		
 	}
 
